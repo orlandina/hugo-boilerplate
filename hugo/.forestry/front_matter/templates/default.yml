@@ -17,4 +17,11 @@ fields:
   label: Draft
   type: boolean
   hidden: false
-  default: true
+  default: false
+- type: file
+  name: upload_pdf
+  label: 'upload pdf:'
+  description: here you can upload press release
+  hidden: false
+  config:
+    maxSize: '500'
